@@ -1,6 +1,6 @@
 # travo
 
-A new Flutter project.
+Travo is an animated travel application that enables users to find locations and schedule trips.
 
 ## Getting Started
 
