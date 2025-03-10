@@ -52,7 +52,6 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
             Container(
               padding: EdgeInsets.only(top: 5, bottom: 10),
               child: Column(

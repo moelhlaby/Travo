@@ -11,13 +11,13 @@ class ProfileView extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          CircleAvatar(
+          const CircleAvatar(
             radius: 120,
             backgroundImage: AssetImage(
               'assets/images/profile_pics.png',
             ),
           ),
-          SizedBox(height: 40,),
+          const SizedBox(height: 40,),
           Text(
             'Hi Tamara',
             style: kHeadingStyle.copyWith(fontSize: 35),

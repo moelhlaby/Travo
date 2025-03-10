@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:travo/constants.dart';
 import 'package:travo/pages/authentication.dart';
+import 'package:travo/pages/home_views/pofile.dart';
 import 'package:travo/pages/onboarding_screen.dart';
 import 'package:travo/pages/onboarding_screens/profile_view.dart';
 import 'pages/home_page.dart';
@@ -40,7 +41,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ),
-      home:AuthenticationPage() ,
+      home:ProfilePage() ,
     );
   }
 }
