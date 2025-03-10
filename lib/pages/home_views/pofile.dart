@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:travo/constants.dart';
 import 'package:travo/pages/location_list.dart';
-import 'package:travo/pages/location_page.dart';
+import 'package:travo/pages/location_list_page.dart';
 import 'package:travo/widgets/location_card.dart';
 import '../../models/user.dart';
 

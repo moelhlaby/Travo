@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:travo/models/categories.dart';
-import '../pages/location_page.dart';
+import '../pages/location_list_page.dart';
 
 class CategoriesCard extends StatelessWidget {
   const CategoriesCard({super.key, required this.category});
