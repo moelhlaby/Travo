@@ -28,21 +28,30 @@ class Location {
           place: 'Kaduna',
           imageUrl: '$kImagesPath/roberto-nickson-g-549146-unsplash.jpg',
           price: 0.4,
-          description: 'Description',
+          description: ' Ophiuch is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Nigeria'),
       Location(
           title: 'Santorini',
           place: 'New Osogbo',
           imageUrl: '$kImagesPath/simone-hutsch-699861-unsplash.jpg',
           price: 0.5,
-          description: 'Description',
+          description:  ' Santorini is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Nigeria'),
       Location(
           title: 'Marrakech',
           place: 'Neptune',
           imageUrl: '$kImagesPath/kenny-luo-516116-unsplash.jpg',
           price: 2.8,
-          description: 'Description',
+          description:  ' Marrakech is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Nigeria'),
       Location(
           title: 'Everest',
@@ -50,21 +59,30 @@ class Location {
           imageUrl:
           '$kImagesPath/backgrounds/jonathan-gallegos-726029-unsplash.png',
           price: 2.8,
-          description: 'Description',
+          description:  ' Everest is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Nepal'),
       Location(
           title: 'Sahara',
           place: 'Merzouga',
           imageUrl: '$kImagesPath/tatiana-zanon-VP2mjtJqWvY.jpg',
           price: 2.8,
-          description: 'Description',
+          description:  ' Sahara is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Morocco'),
       Location(
           title: 'Pyramid',
           place: 'Giza',
           imageUrl: '$kImagesPath/steffen-gundermann-PtGvu2P-Gco-unsplash.jpg',
           price: 2.8,
-          description: 'Description',
+          description:  ' Pyramid is the largest city in the New '
+              'Osogbo structure. It has a substantial '
+              'atmosphere and is the most Earth-like '
+              'satellite in the Solar System.',
           country: 'Egypt'),
     ];
   }

@@ -30,7 +30,9 @@ class AppButton extends StatelessWidget {
                 horizontal: 10,
                 vertical: 10,
               ),
-              child: Center(child: child ?? Text(title)),
+              child: Center(child: child ?? Text(title,style: TextStyle(
+                color: Colors.white
+              ),)),
             ),
           ),
         ),

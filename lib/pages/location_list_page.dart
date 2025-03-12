@@ -5,16 +5,16 @@ import 'package:travo/models/categories.dart';
 import 'package:travo/models/location.dart';
 import '../widgets/location_list.dart';
 
-class LocationPage extends StatefulWidget {
-  const LocationPage({super.key, required this.category});
+class LocationListPage extends StatefulWidget {
+  const LocationListPage({super.key, required this.category});
 
   final Category category;
 
   @override
-  State<LocationPage> createState() => _LocationPageState();
+  State<LocationListPage> createState() => _LocationListPageState();
 }
 
-class _LocationPageState extends State<LocationPage> {
+class _LocationListPageState extends State<LocationListPage> {
   late List<Location> _locations;
   @override
   void initState() {

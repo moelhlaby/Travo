@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:travo/constants.dart';
+import 'package:travo/models/location.dart';
 import 'package:travo/pages/authentication.dart';
 import 'package:travo/pages/home_views/pofile.dart';
+import 'package:travo/pages/location_page.dart';
 import 'package:travo/pages/onboarding_screen.dart';
 import 'package:travo/pages/onboarding_screens/profile_view.dart';
 import 'pages/home_page.dart';
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
       darkTheme: ThemeData(
         brightness: Brightness.light,
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ),
-      home:ProfilePage() ,
+      home:LocationPage(location: Location.getLocations()[0],) ,
     );
   }
 }

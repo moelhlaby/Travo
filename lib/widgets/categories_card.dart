@@ -23,7 +23,7 @@ class CategoriesCard extends StatelessWidget {
           child: InkWell(
             onTap: () {
               Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => LocationPage(
+                  builder: (context) => LocationListPage(
                     category: category,
                   )));
             },
